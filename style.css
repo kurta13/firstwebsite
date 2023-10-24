@@ -1,0 +1,253 @@
+body {
+    background-image: url('green-background.jpeg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #101010;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    background-size: cover;
+    width: 100%;
+
+}
+.banner {
+    position: relative;
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    
+}
+
+.banner img {
+    display: none; 
+}
+
+.banner h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+nav {
+    
+    color: white;
+    text-align: center;
+}
+nav ul li a {
+    text-decoration: none;
+    background-color: #006400;
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #004d00;
+}
+nav ul {
+    list-style: none;
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.social-icons {
+    float: right;
+    margin-right: 20px;
+
+}
+.social-icons a {
+    margin-right: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-bar {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.GPSloc {
+    float: right;
+    margin: 40px;
+    padding: 0px;
+    border-style: solid;
+
+}
+.contact_info {
+    float:left;
+    padding-top: 40px;
+    padding-left: 300px;
+    color:white;
+}
+.productcontainer1 {
+    color: white;
+    padding-left: 10px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+}
+.productcontainer1 img{
+    padding-bottom: 30px;
+}
+
+.productcontainer2 {
+    padding-left: 10px;
+    color: white;
+}
+.productcontainer2 img{
+    padding-bottom: 30px;
+
+}
+.productcontainer3 {
+    padding-left: 10px;
+    color: white;
+}
+.productcontainer3 img{
+    padding-bottom: 30px;
+
+}
+.text1 {
+    padding-left: 20px;
+}
+.text2 {
+    padding-left: 20px;
+}
+.text3 {
+    padding-left: 20px;
+}
+.indexcontainer1 {
+    padding-left: 10px;
+    color: white;
+}
+.indexcontainer1 h3{
+    color: red;
+}
+.welcometxt h1{
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+.imglist {
+    display: inline;
+    text-align: center;
+}
+.imagelist1 {
+    float: left;
+    margin: 40px;
+}
+.imagelist2 {
+    float: right;
+    margin: 40px;
+
+}
+.imagelist1 h3{
+    color: white;
+    
+}
+.imagelist2 h3{
+    color: white;
+}
+.imagelist1 img{
+    border-style: solid;
+    border-color: black;
+}
+.imagelist2 img{
+    border-style: solid;
+    border-color: black;
+}
+.blog-post {
+    padding: 20px;
+    margin: 20px;
+    margin-top: 40px;
+    border: 1px solid white;
+}
+
+.blog-post h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: white;
+}
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.blog-post p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: white;
+}
+.aboutus {
+    margin: 20px;
+    margin-top: 40px;
+}
+.aboutus h2{
+    text-align: center;
+    color: white;
+    margin: 50px;
+}
+.aboutus p{
+    text-align: none;
+    color: white;
+    margin: 40px;
+}
+.aboutus img{
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.eventcontainer1 {
+    margin: 40px;
+    margin-top: 50px;
+}
+.eventcontainer1 img{
+    float: right;
+}
+.eventcontainer2 {
+    margin: 40px;
+}
+.eventcontainer1 h2,p{
+    color: white;
+}
+.eventcontainer2 h2,p{
+    color: white;
+}
+.eventtitle {
+    color: white;
+    margin: 40px;
+    text-align: center;
+}
+.indexcontainer2 {
+    padding-left: 20px;
+    color: white;
+}
+.indexcontainer2 h2{
+    text-align: center;
+}
+.indexcontainer2 img{
+    border-style: solid;
+    border-color: black;
+}
